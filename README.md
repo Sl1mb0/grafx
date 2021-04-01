@@ -1,4 +1,4 @@
-#sl1mb0/grafx
+### sl1mb0/grafx
 
 This is just a collection of all of my graphics related things.
 
