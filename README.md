@@ -1,8 +1,8 @@
-### sl1mb0/grafx
+# sl1mb0/grafx
 
 This is just a collection of all of my graphics related things.
 
-# hello_world 
+### hello_world 
  
  C++ program to write to a `.ppm` file. Generates an rgb gradient.
 
