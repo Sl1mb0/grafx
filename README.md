@@ -16,4 +16,5 @@ References:
 
 References:
 [_Cellular Automata_](https://mathworld.wolfram.com/CellularAutomaton.html)
+
 [_Rule 30_](https://en.wikipedia.org/wiki/Rule_30)
