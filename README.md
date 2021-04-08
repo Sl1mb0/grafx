@@ -15,6 +15,7 @@ References:
  with and rgb gradient. Uses some of the code in `hello_world`. 
 
 References:
+
 [_Cellular Automata_](https://mathworld.wolfram.com/CellularAutomaton.html)
 
 [_Rule 30_](https://en.wikipedia.org/wiki/Rule_30)
