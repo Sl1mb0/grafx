@@ -5,6 +5,7 @@ class rule {
     public:
         rule(int r, int c);
 	void rule30();
+	void rule187();
     public: 
         int rows, columns;
 	int **array; 
@@ -44,13 +45,44 @@ void rule::rule30() {
     int l, r;
     for(int row = 1; row < this->rows; ++row) {
         for(int column = 0; column < this->columns; ++column){
-            if(column)           l = this->array[row-1][column-1]; else l = this->array[row-1][this->columns-1];
-            if(column != this->columns-1) r = this->array[row-1][column+1]; else r = this->array[row-1][0];
+            if(column)           
+	        l = this->array[row-1][column-1]; 
+	    else 
+	        l = this->array[row-1][this->columns-1];
+            if(column != this->columns-1) 
+	        r = this->array[row-1][column+1]; 
+	    else 
+	        r = this->array[row-1][0];
             if(this->array[row-1][column])
-              if(l)       this->array[row][column] = 0; else this->array[row][column] = 1;
+              if(l)       
+	          this->array[row][column] = 0; 
+	      else 
+	          this->array[row][column] = 1;
             else
-              if(l^r)     this->array[row][column] = 1; else this->array[row][column] = 0;
+              if(l^r)     
+	          this->array[row][column] = 1; 
+	      else 
+	          this->array[row][column] = 0;
         }
+    }
+}
+
+void rule::rule187() {
+    int l, r;
+    for(int row = 1; row < this->rows; ++row) {
+        for(int column = 0; column < this->columns; ++column) {
+	    if(column)          
+	        l = this->array[row-1][column-1]; 
+	    else 
+	        l = this->array[row-1][this->columns-1];
+	    if(column != this->columns - 1)
+	        r = this->array[row-1][column+1];
+	    else
+	        r = this->array[row-1][0];
+	    if(this->array[row-1][column])
+	        if(l || r)
+	         
+	}
     }
 }
 #endif
