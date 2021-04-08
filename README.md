@@ -14,6 +14,6 @@ References:
  Rule 30 is a well known "rule" in cellular automata. This program generates rule 30
  with and rgb gradient. Uses some of the code in `hello_world`. 
 
-Refereces:
+References:
 [_Cellular Automata_](https://mathworld.wolfram.com/CellularAutomaton.html)
 [_Rule 30_](https://en.wikipedia.org/wiki/Rule_30)
